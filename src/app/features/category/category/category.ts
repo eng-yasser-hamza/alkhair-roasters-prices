@@ -38,4 +38,6 @@ export class Category {
     goBack() {
     this.location.back();
   }
+
+  //test
 }
