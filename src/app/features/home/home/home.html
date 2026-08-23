@@ -1,0 +1,17 @@
+<div class="container" dir="rtl">
+  <header class="header-section">
+    <h1 class="header">أسعار محمصة الخير</h1>
+    <div class="divider"></div>
+  </header>
+
+  <div class="categories-grid">
+    @for (category of categories; track category.slug) {
+      <a class="category-card" [routerLink]="['/category', category.slug]">
+        <div class="image-wrapper">
+          <img [src]="category.image" [alt]="category.name" loading="lazy">
+        </div>
+        <h2>{{ category.name }}</h2>
+      </a>
+    }
+  </div>
+</div>

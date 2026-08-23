@@ -1,0 +1,98 @@
+:host {
+  display: block;
+  color: #0f0d0c;
+  min-height: 100vh;
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* الهيدر */
+.header-section {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.header {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #d4af37; /* لون ذهبي دافئ */
+  letter-spacing: -0.5px;
+  margin-bottom: 12px;
+}
+
+.divider {
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #d4af37, transparent);
+  margin: 0 auto;
+}
+
+/* شبكة الأقسام */
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* بطاقة القسم */
+.category-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #1a1715;
+  border: 1px solid rgba(212, 175, 55, 0.15); /* إطار ذهبي شفاف */
+  border-radius: 16px;
+  padding: 20px;
+  text-decoration: none;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  overflow: hidden;
+  position: relative;
+}
+
+.category-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(212, 175, 55, 0.5);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5),
+              0 0 20px rgba(212, 175, 55, 0.1);
+}
+
+/* غلاف الصورة */
+.image-wrapper {
+  width: 100%;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 16px;
+  background-color: #24201d;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.category-card:hover .image-wrapper img {
+  transform: scale(1.08); /* تكبير سلس عند التمرير */
+}
+
+/* عنوان القسم */
+.category-card h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #e8ded4;
+  margin: 8px 0 0 0;
+  transition: color 0.3s ease;
+}
+
+.category-card:hover h2 {
+  color: #d4af37;
+}

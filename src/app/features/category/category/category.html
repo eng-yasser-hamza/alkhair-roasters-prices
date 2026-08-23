@@ -1,0 +1,32 @@
+<div class="container" dir="rtl">
+  @if (currentCategory) { 
+    <header class="category-header">
+      <a class="back-btn" (click)="goBack()">
+        <span>&#8594;</span> الأقسام
+      </a>
+      <h1 class="title">{{ currentCategory.name }}</h1>
+      <div class="divider"></div>
+    </header>
+    
+    <div class="menu-card">
+      <div class="products-list">
+        @for (product of categoryProducts; track product.id) {
+          <div class="product-item">
+            <div class="product-info">
+              <span class="product-name">{{ product.name }}</span>
+              <span class="dots-spacer"></span>
+              <span class="product-price">
+                {{ product.price }} <small>ل.س</small>
+              </span>
+            </div>
+          </div>
+        }
+      </div>
+    </div>
+  }@else {
+
+    <h1>التصنيف غير موجود</h1>
+
+  }
+
+</div>

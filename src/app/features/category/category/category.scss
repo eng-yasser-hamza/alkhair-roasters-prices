@@ -1,0 +1,116 @@
+:host {
+  display: block;
+  background-color: #0f0d0c;
+  color: #f5f0eb;
+  min-height: 100vh;
+  font-family: 'Tajawal', 'Cairo', sans-serif;
+}
+
+.container {
+  max-width: 800px; /* عرض مخصص لقوائم الطعام الفاخرة */
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* الهيدر وزر العودة */
+.category-header {
+  text-align: center;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.back-btn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #d4af37;
+  text-decoration: none;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: opacity 0.3s ease;
+}
+
+.back-btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #d4af37;
+  margin: 0 0 10px 0;
+}
+
+.divider {
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #d4af37, transparent);
+  margin: 0 auto;
+}
+
+/* كارت القائمة الفاخر */
+.menu-card {
+  background: #1a1715;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.products-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* عنصر المنتج */
+.product-item {
+  padding: 12px 16px;
+  border-radius: 12px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.product-item:hover {
+  background: rgba(212, 175, 55, 0.05);
+  transform: translateX(-5px); /* إزاحة خفيفة جهة اليمين عند التحويم */
+}
+
+.product-info {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+/* اسم المنتج */
+.product-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #f5f0eb;
+  white-space: nowrap;
+}
+
+/* النقاط الفاصلة الأنيقة بين الاسم والسعر */
+.dots-spacer {
+  flex: 1;
+  border-bottom: 2px dotted rgba(212, 175, 55, 0.25);
+  margin: 0 15px;
+}
+
+/* السعر */
+.product-price {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #d4af37;
+  white-space: nowrap;
+}
+
+.product-price small {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #a89f91;
+  margin-right: 4px;
+}
