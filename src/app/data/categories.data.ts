@@ -17,7 +17,7 @@ export const categories: Category[] = [
     image: '/images/categories/biscuit.jpg'
   },
   {
-    name: 'عصائر ومشروبات غازية',
+    name: 'مشروبات',
     slug: 'cola',
     image: '/images/categories/cola.jpg'
   }
