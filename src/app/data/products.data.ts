@@ -8,7 +8,10 @@ export interface Product {
 export const products: Product[] = [
   //موالح
 
-  { id: 1, name: 'دوار', price: 55000, category: 'savory' },
+  { id: 10000, name: 'دوار', price: 50000, category: 'savory' },
+  { id: 10022, name: 'قضامة مدخنة', price: 75000, category: 'savory' },
+  { id: 1, name: 'دوار بلا ملح', price: 60000, category: 'savory' },
+  { id: 1, name: 'مصري', price: 40000, category: 'savory' },
   { id: 2, name: 'أبيض عريض', price: 70000, category: 'savory' },
   { id: 3, name: 'أبيض مدخن', price: 80000, category: 'savory' },
   { id: 4, name: 'أسود بلدي', price: 50000, category: 'savory' },
