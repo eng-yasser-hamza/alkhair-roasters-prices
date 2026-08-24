@@ -15,13 +15,13 @@ export const products: Product[] = [
   { id: 5, name: 'أفغاني مسلوق', price: 70000, category: 'savory' },
   { id: 6, name: 'فستق مدخن', price: 75000, category: 'savory' },
   { id: 7, name: 'فستق عادي', price: 70000, category: 'savory' },
-  { id: 8, name: 'كاجو أول', price: 200000, category: 'savory' },
+  { id: 8, name: 'كاجو أول', price: 185000, category: 'savory' },
   { id: 9, name: 'كاجو مدخن', price: 200000, category: 'savory' },
   { id: 10, name: 'لوز أول', price: 185000, category: 'savory' },
   { id: 11, name: 'حلبي أول', price: 250000, category: 'savory' },
   { id: 12, name: 'كوسا', price: 70000, category: 'savory' },
   { id: 13, name: 'قلوبات مشكلة', price: 175000, category: 'savory' },
-  { id: 14, name: 'تخليطة اكسترا', price: 80000, category: 'savory' },
+  { id: 14, name: 'تخليطة اكسترا', price: 75000, category: 'savory' },
   { id: 15, name: 'ذرة', price: 65000, category: 'savory' },
   { id: 16, name: 'فستق بقشرو', price: 35000, category: 'savory' },
   { id: 17, name: 'قضامة', price: 60000, category: 'savory' },
@@ -227,4 +227,42 @@ export const products: Product[] = [
   { id: 211, name: 'باربيكان', price: 12000, category: 'cola' },
   { id: 212, name: 'مياه كبيرة', price: 5000, category: 'cola' },
   { id: 213, name: 'مياه صغيرة', price: 2000, category: 'cola' },
+
+  //سكاكر
+
+  { id: 215, name: 'سكاكر تاج كراميل', price: 40000, category: 'sweets' },
+{ id: 216, name: 'سكاكر تاج فستق حلبي', price: 85000, category: 'sweets' },
+{ id: 217, name: 'سكاكر ديفا كراميل', price: 50000, category: 'sweets' },
+{ id: 218, name: 'سكاكر ديفا مص ناعمة فواكه', price: 50000, category: 'sweets' },
+{ id: 219, name: 'سكاكر ديفا مص كبيرة', price: 60000, category: 'sweets' },
+{ id: 220, name: 'سميري', price: 65000, category: 'sweets' },
+{ id: 221, name: 'قبقاب', price: 50000, category: 'sweets' },
+{ id: 222, name: 'قضامة بسكر', price: 60000, category: 'sweets' },
+{ id: 223, name: 'جيليبون وطني', price: 50000, category: 'sweets' },
+{ id: 224, name: 'شريطة حامضة', price: 75000, category: 'sweets' },
+{ id: 225, name: 'جيليبون أجنبي', price: 75000, category: 'sweets' },
+{ id: 226, name: 'سوس', price: 50000, category: 'sweets' },
+{ id: 227, name: 'ملبس', price: 90000, category: 'sweets' },
+{ id: 228, name: 'سكاكر ميماس', price: 60000, category: 'sweets' },
+{ id: 229, name: 'راحة عرايسية', price: 275000, category: 'sweets' },
+{ id: 230, name: 'راحة ملوكية', price: 300000, category: 'sweets' },
+
+//قهوة
+
+
+{ id: 231, name: 'قهوة برازيلية اكسترا', price: 185000, category: 'coffee' },
+{ id: 232, name: 'قهوة برازيلية وسط', price: 160000, category: 'coffee' },
+{ id: 233, name: 'قهوة برازيلية بلا هيل', price: 150000, category: 'coffee' },
+{ id: 234, name: 'هيل', price: 450000, category: 'coffee' },
+{ id: 235, name: 'نسكافيه غولد', price: 300000, category: 'coffee' },
+{ id: 236, name: 'نسكافيه كلاسيك', price: 175000, category: 'coffee' },
+{ id: 237, name: 'قهوة مرة برازيلي', price: 150000, category: 'coffee' },
+{ id: 238, name: 'قهوة مرة كولومبي', price: 225000, category: 'coffee' },
+{ id: 239, name: 'توربيكا كابتشينو ظرف', price: 3000, category: 'coffee' },
+{ id: 240, name: 'عصير الترا فريش', price: 2500, category: 'coffee' },
+{ id: 241, name: '3 بـ 1 الحموي', price: 2000, category: 'coffee' },
+{ id: 242, name: '3 بـ 1 نسكافيه الأصلي الأسود سترونغ', price: 3000, category: 'coffee' },
+{ id: 243, name: '3 بـ 1 نسكافيه الأصلي الأحمر', price: 2500, category: 'coffee' },
+{ id: 244, name: 'قهوة مرة حموي سائلة', price: 35000, category: 'coffee' },
+
 ];

@@ -20,5 +20,15 @@ export const categories: Category[] = [
     name: 'مشروبات',
     slug: 'cola',
     image: '/images/categories/cola.jpg'
+  },
+  {
+    name: 'سكاكر',
+    slug: 'sweets',
+    image: '/images/categories/sweets.jpg'
+  },
+  {
+    name: 'قهوة',
+    slug: 'coffee',
+    image: '/images/categories/coffee.jpg'
   }
 ];
