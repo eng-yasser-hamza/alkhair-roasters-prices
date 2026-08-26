@@ -47,6 +47,7 @@ export const products: Product[] = [
 
   //شوكولا
 
+  { id: 34, name: 'مجمع إيبو', price: 85000, category: 'chocolate' },
   { id: 34, name: 'اكسترا مرة 4كغ سادة ذهيب ديلوكس', price: 190000, category: 'chocolate' },
   { id: 35, name: 'امواج سادة 3كغ سادة ذهيب ديلوكس', price: 150000, category: 'chocolate' },
   { id: 36, name: 'ايفا سادة 3.5كغ سادة ذهيب ديلوكس', price: 150000, category: 'chocolate' },
