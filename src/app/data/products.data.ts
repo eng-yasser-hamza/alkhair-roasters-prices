@@ -220,18 +220,18 @@ export const products: Product[] = [
 
   //مشروبات
 
-  { id: 202, name: 'بيبسي تنك - ميرندا - سفن آب', price: 12000, category: 'cola' },
-  { id: 203, name: 'بيبسي لتر - ميرندا - سفن آب', price: 15000, category: 'cola' },
-  { id: 204, name: 'بيبسي لترين وربع - ميرندا - سفن آب', price: 22000, category: 'cola' },
-  { id: 205, name: 'أورجينال لتر', price: 19000, category: 'cola' },
-  { id: 206, name: 'أورجينال لتر ونصف', price: 29000, category: 'cola' },
-  { id: 207, name: 'راني تنك', price: 11500, category: 'cola' },
-  { id: 208, name: 'راني كبير لتر ونصف', price: 30000, category: 'cola' },
-  { id: 209, name: 'زويا', price: 11000, category: 'cola' },
-  { id: 210, name: 'لونا قهوة مثلجة', price: 15000, category: 'cola' },
-  { id: 211, name: 'باربيكان', price: 17000, category: 'cola' },
-  { id: 212, name: 'مياه كبيرة', price: 10000, category: 'cola' },
-  { id: 213, name: 'مياه صغيرة', price: 7000, category: 'cola' },
+  { id: 202, name: 'بيبسي تنك - ميرندا - سفن آب', price: 7500, category: 'cola' },
+  { id: 203, name: 'بيبسي لتر - ميرندا - سفن آب', price: 11000, category: 'cola' },
+  { id: 204, name: 'بيبسي لترين وربع - ميرندا - سفن آب', price: 20000, category: 'cola' },
+  { id: 205, name: 'أورجينال لتر', price: 14000, category: 'cola' },
+  { id: 206, name: 'أورجينال لتر ونصف', price: 25000, category: 'cola' },
+  { id: 207, name: 'راني تنك', price: 7500, category: 'cola' },
+  { id: 208, name: 'راني كبير لتر ونصف', price: 25000, category: 'cola' },
+  { id: 209, name: 'زويا', price: 8000, category: 'cola' },
+  { id: 210, name: 'لونا قهوة مثلجة', price: 11000, category: 'cola' },
+  { id: 211, name: 'باربيكان', price: 13000, category: 'cola' },
+  { id: 212, name: 'مياه كبيرة', price: 6000, category: 'cola' },
+  { id: 213, name: 'مياه صغيرة', price: 2500, category: 'cola' },
 
   //سكاكر
 
@@ -263,11 +263,11 @@ export const products: Product[] = [
 { id: 236, name: 'نسكافيه كلاسيك', price: 180000, category: 'coffee' },
 { id: 237, name: 'قهوة مرة برازيلي', price: 155000, category: 'coffee' },
 { id: 238, name: 'قهوة مرة كولومبي', price: 230000, category: 'coffee' },
-{ id: 239, name: 'توربيكا كابتشينو ظرف', price: 8000, category: 'coffee' },
-{ id: 240, name: 'عصير الترا فريش', price: 7500, category: 'coffee' },
-{ id: 241, name: '3 بـ 1 الحموي', price: 7000, category: 'coffee' },
-{ id: 242, name: '3 بـ 1 نسكافيه الأصلي الأسود سترونغ', price: 8000, category: 'coffee' },
-{ id: 243, name: '3 بـ 1 نسكافيه الأصلي الأحمر', price: 7500, category: 'coffee' },
-{ id: 244, name: 'قهوة مرة حموي سائلة', price: 40000, category: 'coffee' },
+{ id: 239, name: 'توربيكا كابتشينو ظرف', price: 3500, category: 'coffee' },
+{ id: 240, name: 'عصير الترا فريش', price: 3000, category: 'coffee' },
+{ id: 241, name: '3 بـ 1 الحموي', price: 2500, category: 'coffee' },
+{ id: 242, name: '3 بـ 1 نسكافيه الأصلي الأسود سترونغ', price: 3500, category: 'coffee' },
+{ id: 243, name: '3 بـ 1 نسكافيه الأصلي الأحمر', price: 3000, category: 'coffee' },
+{ id: 244, name: 'قهوة مرة حموي سائلة', price: 35000, category: 'coffee' },
 
 ];
