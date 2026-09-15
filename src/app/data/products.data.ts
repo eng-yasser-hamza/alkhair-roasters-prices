@@ -7,6 +7,7 @@ export interface Product {
 
 export const products: Product[] = [
   //موالح
+  //updated
 
  { id: 10000, name: 'دوار', price: 55000, category: 'savory' },
   { id: 1002, name: 'قضامة مدخنة', price: 80000, category: 'savory' },
