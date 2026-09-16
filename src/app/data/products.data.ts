@@ -24,7 +24,7 @@ export const products: Product[] = [
   { id: 10, name: 'لوز أول', price: 190000, category: 'savory' },
   { id: 11, name: 'حلبي أول', price: 255000, category: 'savory' },
   { id: 12, name: 'كوسا', price: 75000, category: 'savory' },
-  { id: 13, name: 'قلوبات مشكلة', price: 180000, category: 'savory' },
+  { id: 13, name: 'قلوبات مشكلة', price: 200000, category: 'savory' },
   { id: 14, name: 'تخليطة اكسترا', price: 80000, category: 'savory' },
   { id: 15, name: 'ذرة', price: 70000, category: 'savory' },
   { id: 16, name: 'فستق بقشرو', price: 40000, category: 'savory' },
